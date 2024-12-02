@@ -152,7 +152,7 @@ int main()
 		}
 		if (isAsymmetr)
 		{
-			if (q == 6)
+			if (q >0)
 			{
 				symmetr = "Антисимметричное " + symmetr;
 			}
@@ -194,6 +194,10 @@ int main()
 					}
 				}
 			}
+		}
+		if (q == 0)
+		{
+			isTranzit = false;
 		}
 		string tranzit = "ранзитивное отношение";
 		if (isTranzit)
